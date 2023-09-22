@@ -4,7 +4,7 @@ CK OSS Prettier Configuration
 
 ## Installation
 
-```
+```bash
 npm i -D @ck-oss/prettier-config
 ```
 
@@ -13,10 +13,10 @@ npm i -D @ck-oss/prettier-config
 - Format `package.json` with `prettier-plugin-packagejson`
 - Sort Imports with `@ianvs/prettier-plugin-sort-imports`
 
-```
+```json
 // package.json
 {
-    "prettier": "@ck-oss/prettier-config"
+  "prettier": "@ck-oss/prettier-config"
 }
 ```
 
@@ -26,9 +26,9 @@ npm i -D @ck-oss/prettier-config
 - Sort Imports with `@ianvs/prettier-plugin-sort-imports`
 - Sort tailwind classes `with prettier-plugin-tailwindcss`
 
-```
+```json
 // package.json
 {
-    "prettier": "@ck-oss/prettier-config/with-tailwind"
+  "prettier": "@ck-oss/prettier-config/with-tailwind"
 }
 ```

@@ -17,9 +17,10 @@
     "name": "ckasidis",
     "url": "https://github.com/ckasidis"
   },
-  "main": "./src/index.cjs",
+  "main": "./index.js",
   "files": [
-    "./src"
+    "./index.js",
+    "./with-tailwind.js"
   ],
   "scripts": {
     "commit": "cz",
@@ -42,7 +43,7 @@
       "path": "@commitlint/cz-commitlint"
     }
   },
-  "prettier": "./src/index.cjs",
+  "prettier": ".",
   "release": {
     "branches": [
       "main"

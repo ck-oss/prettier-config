@@ -1,4 +1,4 @@
-/** @typedef  {import("prettier").Config} PrettierConfig */
+/** @type {import("prettier").Config} */
 module.exports = {
   plugins: ["prettier-plugin-packagejson"],
 };

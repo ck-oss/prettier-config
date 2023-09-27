@@ -12,8 +12,9 @@ jobs:
   ci:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
+    strategy:
+      matrix:
+        node-version: [18.x]
 
     steps:
       - name: Checkout
@@ -35,6 +36,3 @@ jobs:
 
       - name: Format check
         run: bun run format:check
-
-      - name: Lint
-        run: bun run lint

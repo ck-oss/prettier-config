@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/ck-oss/prettier-config/compare/v1.0.2...v1.0.3) (2023-09-27)
+
+
+### Bug Fixes
+
+* re-add sort imports plugin ([c8d3234](https://github.com/ck-oss/prettier-config/commit/c8d323415e864ae6dca24e98210c7950e1fb3671))
+
 ## [1.0.2](https://github.com/ck-oss/prettier-config/compare/v1.0.1...v1.0.2) (2023-09-24)
 
 

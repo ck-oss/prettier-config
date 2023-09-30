@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/ck-oss/prettier-config/compare/v1.0.3...v1.0.4) (2023-09-30)
+
+
+### Bug Fixes
+
+* remove sort imports plugin and migrate to pnpm ([e4b5357](https://github.com/ck-oss/prettier-config/commit/e4b5357fa632a693b0852654dd7bad1b789bcc59))
+
 ## [1.0.3](https://github.com/ck-oss/prettier-config/compare/v1.0.2...v1.0.3) (2023-09-27)
 
 

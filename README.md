@@ -5,7 +5,7 @@ CK OSS Prettier Configuration
 ## Installation
 
 ```bash
-npm i -D @ck-oss/prettier-config
+npm i --save-dev @ck-oss/prettier-config
 ```
 
 ## default configuration

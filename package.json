@@ -1,6 +1,6 @@
 {
   "name": "@ck-oss/prettier-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "CK OSS Prettier Configuration",
   "keywords": [

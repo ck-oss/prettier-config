@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/ck-oss/prettier-config/compare/v1.0.4...v1.0.5) (2023-10-14)
+
+
+### Bug Fixes
+
+* **deps:** bump dependencies ([b849d0a](https://github.com/ck-oss/prettier-config/commit/b849d0a97b120b772faabb82db57d03807cb827c))
+
 ## [1.0.4](https://github.com/ck-oss/prettier-config/compare/v1.0.3...v1.0.4) (2023-09-30)
 
 

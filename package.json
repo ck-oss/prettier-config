@@ -59,12 +59,12 @@
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.4.6",
-    "prettier-plugin-tailwindcss": "^0.5.4"
+    "prettier-plugin-tailwindcss": "^0.5.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.2",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@commitlint/cz-commitlint": "^17.7.2",
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/config-conventional": "^17.8.0",
+    "@commitlint/cz-commitlint": "^17.8.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.0",

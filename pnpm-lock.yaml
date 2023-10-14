@@ -9,19 +9,19 @@ dependencies:
     specifier: ^2.4.6
     version: 2.4.6(prettier@3.0.3)
   prettier-plugin-tailwindcss:
-    specifier: ^0.5.4
-    version: 0.5.4(prettier@3.0.3)
+    specifier: ^0.5.6
+    version: 0.5.6(prettier@3.0.3)
 
 devDependencies:
   "@commitlint/cli":
-    specifier: ^17.7.2
-    version: 17.7.2
+    specifier: ^17.8.0
+    version: 17.8.0
   "@commitlint/config-conventional":
-    specifier: ^17.7.0
-    version: 17.7.0
+    specifier: ^17.8.0
+    version: 17.8.0
   "@commitlint/cz-commitlint":
-    specifier: ^17.7.2
-    version: 17.7.2(commitizen@4.3.0)(inquirer@8.2.6)
+    specifier: ^17.8.0
+    version: 17.8.0(commitizen@4.3.0)(inquirer@8.2.6)
   "@semantic-release/changelog":
     specifier: ^6.0.3
     version: 6.0.3(semantic-release@22.0.5)
@@ -86,17 +86,17 @@ packages:
     dev: true
     optional: true
 
-  /@commitlint/cli@17.7.2:
+  /@commitlint/cli@17.8.0:
     resolution:
       {
-        integrity: sha512-t3N7TZq7lOeqTOyEgfGcaltHqEJf7YDlPg75MldeVPPyz14jZq/+mbGF9tueDLFX8R6RwdymrN6D+U5XwZ8Iwg==,
+        integrity: sha512-D3LdyZYbiRyAChfJMNlAd9f2P9vNQ7GWbI9gN2o7L5hF07QJDqj4z/pcJF3PjDbJWOaUUXla287RdDmmKqH2WQ==,
       }
     engines: { node: ">=v14" }
     hasBin: true
     dependencies:
       "@commitlint/format": 17.4.4
-      "@commitlint/lint": 17.7.0
-      "@commitlint/load": 17.7.2
+      "@commitlint/lint": 17.8.0
+      "@commitlint/load": 17.8.0
       "@commitlint/read": 17.5.1
       "@commitlint/types": 17.4.4
       execa: 5.1.1
@@ -109,10 +109,10 @@ packages:
       - "@swc/wasm"
     dev: true
 
-  /@commitlint/config-conventional@17.7.0:
+  /@commitlint/config-conventional@17.8.0:
     resolution:
       {
-        integrity: sha512-iicqh2o6et+9kWaqsQiEYZzfLbtoWv9uZl8kbI8EGfnc0HeGafQBF7AJ0ylN9D/2kj6txltsdyQs8+2fTMwWEw==,
+        integrity: sha512-MgiFXujmqAvi7M33C7OSMTznwrVkckrbXe/aZWQ/+KFGLLF6IE50XIcjGrW0/uiDGb/im5qbqF2dh1dCFNa+sQ==,
       }
     engines: { node: ">=v14" }
     dependencies:
@@ -130,10 +130,10 @@ packages:
       ajv: 8.12.0
     dev: true
 
-  /@commitlint/cz-commitlint@17.7.2(commitizen@4.3.0)(inquirer@8.2.6):
+  /@commitlint/cz-commitlint@17.8.0(commitizen@4.3.0)(inquirer@8.2.6):
     resolution:
       {
-        integrity: sha512-E5j4D8t4o4pGOoE56JOtkTCEXhZJguv8prX+XmdxTF4gYphSjDEb+EQ1xWfv98hxOdgvFJNQfLA/JbPjkfh7DA==,
+        integrity: sha512-EGF4Kx83JiUia56LIDeVN8BEy+sfSU9uC7Sr9ZyX1iGq4tZeVdELXB80v3zNaAV6WsJcj1oR4VclGLQxwEDjKw==,
       }
     engines: { node: ">=v14" }
     peerDependencies:
@@ -141,7 +141,7 @@ packages:
       inquirer: ^8.0.0
     dependencies:
       "@commitlint/ensure": 17.6.7
-      "@commitlint/load": 17.7.2
+      "@commitlint/load": 17.8.0
       "@commitlint/types": 17.4.4
       chalk: 4.1.2
       commitizen: 4.3.0
@@ -187,10 +187,10 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@commitlint/is-ignored@17.7.0:
+  /@commitlint/is-ignored@17.8.0:
     resolution:
       {
-        integrity: sha512-043rA7m45tyEfW7Zv2vZHF++176MLHH9h70fnPoYlB1slKBeKl8BwNIlnPg4xBdRBVNPaCqvXxWswx2GR4c9Hw==,
+        integrity: sha512-8bR6rxNcWaNprPBdE4ePIOwbxutTQGOsRPYWssX+zjGxnEljzaZSGzFUOMxapYILlf8Tts/O1wPQgG549Rdvdg==,
       }
     engines: { node: ">=v14" }
     dependencies:
@@ -198,23 +198,23 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /@commitlint/lint@17.7.0:
+  /@commitlint/lint@17.8.0:
     resolution:
       {
-        integrity: sha512-TCQihm7/uszA5z1Ux1vw+Nf3yHTgicus/+9HiUQk+kRSQawByxZNESeQoX9ujfVd3r4Sa+3fn0JQAguG4xvvbA==,
+        integrity: sha512-4ihwnqOY4TcJN6iz5Jv1LeYavvBllONwFyGxOIWmCT5s4PNMb43cws2TUdbXTZL1Vq59etGKd5LWYDFPVbs5EA==,
       }
     engines: { node: ">=v14" }
     dependencies:
-      "@commitlint/is-ignored": 17.7.0
+      "@commitlint/is-ignored": 17.8.0
       "@commitlint/parse": 17.7.0
       "@commitlint/rules": 17.7.0
       "@commitlint/types": 17.4.4
     dev: true
 
-  /@commitlint/load@17.7.2:
+  /@commitlint/load@17.8.0:
     resolution:
       {
-        integrity: sha512-XA7WTnsjHZ4YH6ZYsrnxgLdXzriwMMq+utZUET6spbOEEIPBCDLdOQXS26P+v3TTO4hUHOEhzUquaBv3jbBixw==,
+        integrity: sha512-9VnGXYJCP4tXmR4YrwP8n5oX6T5ZsHfPQq6WuUQOvAI+QsDQMaTGgTRXr7us+xsjz+b+mMBSagogqfUx2aixyw==,
       }
     engines: { node: ">=v14" }
     dependencies:
@@ -407,7 +407,7 @@ packages:
     dependencies:
       "@octokit/auth-token": 4.0.0
       "@octokit/graphql": 7.0.2
-      "@octokit/request": 8.1.2
+      "@octokit/request": 8.1.4
       "@octokit/request-error": 5.0.1
       "@octokit/types": 12.0.0
       before-after-hook: 2.2.3
@@ -433,7 +433,7 @@ packages:
       }
     engines: { node: ">= 18" }
     dependencies:
-      "@octokit/request": 8.1.2
+      "@octokit/request": 8.1.4
       "@octokit/types": 12.0.0
       universal-user-agent: 6.0.0
     dev: true
@@ -499,10 +499,10 @@ packages:
       once: 1.4.0
     dev: true
 
-  /@octokit/request@8.1.2:
+  /@octokit/request@8.1.4:
     resolution:
       {
-        integrity: sha512-A0RJJfzjlZQwb+39eDm5UM23dkxbp28WEG4p2ueH+Q2yY4p349aRK/vcUlEuIB//ggcrHJceoYYkBP/LYCoXEg==,
+        integrity: sha512-M0aaFfpGPEKrg7XoA/gwgRvc9MSXHRO2Ioki1qrPDbl1e9YhjIwVoHE7HIKmv/m3idzldj//xBujcFNqGX6ENA==,
       }
     engines: { node: ">= 18" }
     dependencies:
@@ -688,7 +688,7 @@ packages:
       lodash-es: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 8.0.0
-      npm: 10.1.0
+      npm: 10.2.0
       rc: 1.2.8
       read-pkg: 8.1.0
       registry-auth-token: 5.0.2
@@ -1561,7 +1561,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      "@commitlint/load": 17.7.2
+      "@commitlint/load": 17.8.0
     transitivePeerDependencies:
       - "@swc/core"
       - "@swc/wasm"
@@ -2095,13 +2095,6 @@ packages:
       }
     dev: true
 
-  /function-bind@1.1.1:
-    resolution:
-      {
-        integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==,
-      }
-    dev: true
-
   /get-caller-file@2.0.5:
     resolution:
       {
@@ -2303,14 +2296,12 @@ packages:
     engines: { node: ">=8" }
     dev: true
 
-  /has@1.0.3:
+  /has@1.0.4:
     resolution:
       {
-        integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==,
+        integrity: sha512-qdSAmqLF6209RFj4VVItywPMbm3vWylknmB3nvNiUIs72xAimcM8nVYxYr7ncvZq5qzk9MKIZR8ijqD/1QuYjQ==,
       }
     engines: { node: ">= 0.4.0" }
-    dependencies:
-      function-bind: 1.1.1
     dev: true
 
   /homedir-polyfill@1.0.3:
@@ -2570,7 +2561,7 @@ packages:
         integrity: sha512-Z7dk6Qo8pOCp3l4tsX2C5ZVas4V+UxwQodwZhLopL91TX8UyyHEXafPcyoeeWuLrwzHcr3igO78wNLwHJHsMCQ==,
       }
     dependencies:
-      has: 1.0.3
+      has: 1.0.4
     dev: true
 
   /is-docker@2.2.1:
@@ -3184,7 +3175,7 @@ packages:
     engines: { node: ">=8" }
     dev: true
 
-  /marked-terminal@6.0.0(marked@9.0.3):
+  /marked-terminal@6.0.0(marked@9.1.2):
     resolution:
       {
         integrity: sha512-6rruICvqRfA4N+Mvdc0UyDbLA0A0nI5omtARIlin3P2F+aNc3EbW91Rd9HTuD0v9qWyHmNIu8Bt40gAnPfldsg==,
@@ -3197,15 +3188,15 @@ packages:
       cardinal: 2.1.1
       chalk: 5.3.0
       cli-table3: 0.6.3
-      marked: 9.0.3
+      marked: 9.1.2
       node-emoji: 2.1.0
       supports-hyperlinks: 3.0.0
     dev: true
 
-  /marked@9.0.3:
+  /marked@9.1.2:
     resolution:
       {
-        integrity: sha512-pI/k4nzBG1PEq1J3XFEHxVvjicfjl8rgaMaqclouGSMPhk7Q3Ejb2ZRxx/ZQOcQ1909HzVoWCFYq6oLgtL4BpQ==,
+        integrity: sha512-qoKMJqK0w6vkLk8+KnKZAH6neUZSNaQqVZ/h2yZ9S7CbLuFHyS2viB0jnqcWF9UKjwsAbMrQtnQhdmdvOVOw9w==,
       }
     engines: { node: ">= 16" }
     hasBin: true
@@ -3382,7 +3373,7 @@ packages:
       }
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.6
+      resolve: 1.22.8
       semver: 5.7.2
       validate-npm-package-license: 3.0.4
     dev: true
@@ -3439,10 +3430,10 @@ packages:
     dependencies:
       path-key: 4.0.0
 
-  /npm@10.1.0:
+  /npm@10.2.0:
     resolution:
       {
-        integrity: sha512-pZ2xybXzNGbJFZEKNbPoEXsE38Xou9VTnxxBk+B3pz0ndsGCs7iWHoUCPSsISU2hjmkWfDkJo3bYKE8RDOg4eg==,
+        integrity: sha512-Auyq6d4cfg/SY4URjZE2aePLOPzK4lUD+qyMxY/7HbxAvCnOCKtMlyLPcbLSOq9lhEGBZN800S1o+UmfjA5dTg==,
       }
     engines: { node: ^18.17.0 || >=20.5.0 }
     hasBin: true
@@ -3492,6 +3483,7 @@ packages:
       - ms
       - node-gyp
       - nopt
+      - normalize-package-data
       - npm-audit-report
       - npm-install-checks
       - npm-package-arg
@@ -3507,7 +3499,9 @@ packages:
       - qrcode-terminal
       - read
       - semver
+      - spdx-expression-parse
       - ssri
+      - strip-ansi
       - supports-color
       - tar
       - text-table
@@ -3905,10 +3899,10 @@ packages:
       synckit: 0.8.5
     dev: false
 
-  /prettier-plugin-tailwindcss@0.5.4(prettier@3.0.3):
+  /prettier-plugin-tailwindcss@0.5.6(prettier@3.0.3):
     resolution:
       {
-        integrity: sha512-QZzzB1bID6qPsKHTeA9qPo1APmmxfFrA5DD3LQ+vbTmAnY40eJI7t9Q1ocqel2EKMWNPLJqdTDWZj1hKYgqSgg==,
+        integrity: sha512-2Xgb+GQlkPAUCFi3sV+NOYcSI5XgduvDBL2Zt/hwJudeKXkyvRS65c38SB0yb9UB40+1rL83I6m0RtlOQ8eHdg==,
       }
     engines: { node: ">=14.21.3" }
     peerDependencies:
@@ -4029,7 +4023,7 @@ packages:
     dependencies:
       find-up: 6.3.0
       read-pkg: 8.1.0
-      type-fest: 4.3.2
+      type-fest: 4.4.0
     dev: true
 
   /read-pkg-up@7.0.1:
@@ -4067,7 +4061,7 @@ packages:
       "@types/normalize-package-data": 2.4.2
       normalize-package-data: 6.0.0
       parse-json: 7.1.0
-      type-fest: 4.3.2
+      type-fest: 4.4.0
     dev: true
 
   /readable-stream@2.3.8:
@@ -4180,10 +4174,10 @@ packages:
       global-dirs: 0.1.1
     dev: true
 
-  /resolve@1.22.6:
+  /resolve@1.22.8:
     resolution:
       {
-        integrity: sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==,
+        integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==,
       }
     hasBin: true
     dependencies:
@@ -4309,8 +4303,8 @@ packages:
       hook-std: 3.0.0
       hosted-git-info: 7.0.1
       lodash-es: 4.17.21
-      marked: 9.0.3
-      marked-terminal: 6.0.0(marked@9.0.3)
+      marked: 9.1.2
+      marked-terminal: 6.0.0(marked@9.1.2)
       micromatch: 4.0.5
       p-each-series: 3.0.0
       p-reduce: 3.0.0
@@ -4477,7 +4471,7 @@ packages:
       }
     dependencies:
       spdx-expression-parse: 3.0.1
-      spdx-license-ids: 3.0.15
+      spdx-license-ids: 3.0.16
     dev: true
 
   /spdx-exceptions@2.3.0:
@@ -4494,13 +4488,13 @@ packages:
       }
     dependencies:
       spdx-exceptions: 2.3.0
-      spdx-license-ids: 3.0.15
+      spdx-license-ids: 3.0.16
     dev: true
 
-  /spdx-license-ids@3.0.15:
+  /spdx-license-ids@3.0.16:
     resolution:
       {
-        integrity: sha512-lpT8hSQp9jAKp9mhtBU4Xjon8LPGBvLIuBiSVhMEtmLecTh2mO0tlqrAMp47tBXzMr13NJMQ2lf7RpQGLJ3HsQ==,
+        integrity: sha512-eWN+LnM3GR6gPu35WxNgbGl8rmY1AEmoMDvL/QD6zYmPWgywxWqJWNdLGT+ke8dKNWrcYgYjPpG5gbTfghP8rw==,
       }
     dev: true
 
@@ -4917,10 +4911,10 @@ packages:
     engines: { node: ">=14.16" }
     dev: true
 
-  /type-fest@4.3.2:
+  /type-fest@4.4.0:
     resolution:
       {
-        integrity: sha512-VpwuOgnTsQUUWi0id8Hl4/xiQ+OoaeJGe8dnFjzubJYe/lOc2/d1Qx/d3FqWR0FlpOG/cvukAXfB12A49Y4iiA==,
+        integrity: sha512-HT3RRs7sTfY22KuPQJkD/XjbTbxgP2Je5HPt6H6JEGvcjHd5Lqru75EbrP3tb4FYjNJ+DjLp+MNQTFQU0mhXNw==,
       }
     engines: { node: ">=16" }
     dev: true
